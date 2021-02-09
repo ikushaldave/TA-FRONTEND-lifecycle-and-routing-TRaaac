@@ -1,0 +1,17 @@
+@import url("https://pro.fontawesome.com/releases/v5.15.0/css/all.css");
+
+.btn {
+  @apply px-3 py-2 border-2 rounded inline-block text-xl uppercase;
+}
+
+.active {
+  @apply bg-gray-800 text-white;
+}
+
+.col-32 {
+  width: 32%;
+}
+
+.battle-btn {
+  @apply text-yellow-900 text-lg px-2 py-1 text-center m-4 bg-gray-400 rounded border border-black inline-block;
+}
